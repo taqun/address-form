@@ -6,10 +6,16 @@ const FormPage = () => {
       <h1>Form</h1>
 
       <p>姓</p>
-      <input autoComplete="family-name" name="last-name" />
+      <input autoComplete="family-name" />
 
       <p>名</p>
-      <input autoComplete="given-name" name="first-name" />
+      <input autoComplete="given-name" name="last-name" />
+
+      <p>セイ</p>
+      <input autoComplete="phonetic-family-name" />
+
+      <p>メイ</p>
+      <input autoComplete="phonetic-given-name" />
 
       <p>郵便番号</p>
       <input autoComplete="postal-code" />

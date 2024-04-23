@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   distDir: "docs",
-  basePath: "/address-form",
+  basePath: "/form-autocomplete-test",
 };
 
 export default nextConfig;

@@ -36,6 +36,12 @@ const FormPage = () => {
       <p>建物名・部屋番号（任意）</p>
       <input autoComplete="address-line2" name="address-line2" />
 
+      <p>電話番号</p>
+      <input autoComplete="tel" />
+
+      <p>メールアドレス</p>
+      <input autoComplete="email" />
+
       <div>
         <button>Reset</button>
       </div>
